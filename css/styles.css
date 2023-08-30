@@ -1,0 +1,92 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: olive;
+    color: white;
+    gap: 30px;
+    padding: 0 0 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: peru;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background: gainsboro;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: olive;
+    color: white;
+    padding: 20px 0;
+}
+
+.bi-list,
+.bi-x {
+    display: none;
+    cursor: pointer;
+}
+
+.links {
+    width: 100%;
+    transition: width 1s;
+}
+
+.links ul {
+    display: flex;
+    gap: 30px;
+}
+
+.links li {
+    list-style: none;
+}
+
+@media (max-width: 480px) {
+
+    .bi-list,
+    .bi-x {
+        display: block;
+        font-size: 50px;
+    }
+
+    .links {
+        justify-content: center;
+        width: 0;
+        overflow: hidden;
+    }
+
+    .links-open {
+        width: 100%;
+    }
+
+}
