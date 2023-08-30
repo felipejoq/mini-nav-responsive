@@ -9,4 +9,5 @@ Aquí un pequeño video del resultado 👉 [Video](https://github.com/felipejoq/
 Solo eso! 😇
 
 **Vista previa:**
+
 ![alt text](https://github.com/felipejoq/mini-nav-responsive/blob/main/preview.png?raw=true)
