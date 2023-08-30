@@ -4,7 +4,7 @@ Un menú desplegable que responde a medidas de pantalla y se despliega cuando se
 
 Un micro-proyecto que siempre quise hacer por mi cuenta paso a paso usando JS y CSS.
 
-Aquí un pequeño video del resultado 👉 [Video](https://github.com/felipejoq/mini-nav-responsive/blob/[branch]/resultado_final.mp4?raw=true)
+Aquí un pequeño video del resultado 👉 [Video](https://github.com/felipejoq/mini-nav-responsive/blob/main/resultado_final.mp4?raw=true)
 
 Solo eso! 😇
 
